@@ -8,7 +8,7 @@
             "label": "build",
             "detail": "Build workspace (default)",
             "type": "shell",
-            "command": "./scripts/build.sh",
+            "command": "./.vscode/task_scripts/build.sh",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -19,7 +19,7 @@
             "label": "debug",
             "detail": "Build workspace (debug)",
             "type": "shell",
-            "command": "./scripts/build.sh",
+            "command": "./.vscode/task_scripts/build.sh",
             "options": {
                 "env": {
                     "BUILD_TYPE": "Debug"
@@ -33,7 +33,7 @@
             "label": "test",
             "detail": "Run all unit tests and show results.",
             "type": "shell",
-            "command": "./scripts/test.sh",
+            "command": "./.vscode/task_scripts/test.sh",
             "group": {
                 "kind": "test",
                 "isDefault": true
@@ -233,7 +233,7 @@
             "label": "setup",
             "detail": "Set up the workspace",
             "type": "shell",
-            "command": "./scripts/setup.sh",
+            "command": "./.vscode/task_scripts/setup.sh",
             "problemMatcher": []
         },
         {

@@ -31,6 +31,8 @@
 			"extensions": [
 				"althack.ament-task-provider",
 				"betwo.b2-catkin-tools",
+				"bierner.markdown-preview-github-styles",
+				"DavidAnson.vscode-markdownlint",
 				"DotJoshJohnson.xml",
 				"ms-azuretools.vscode-docker",
 				"ms-iot.vscode-ros",

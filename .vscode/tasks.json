@@ -242,6 +242,14 @@
             "type": "shell",
             "command": "python3 .devcontainer/repos_to_submodules.py",
             "problemMatcher": []
+        },
+        // User defined tasks
+        {
+            "label": "simulation",
+            "detail": "Launch turtlebot3 simulation.",
+            "type": "shell",
+            "command": "ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py",
+            "problemMatcher": []
         }
     ],
     "inputs": [

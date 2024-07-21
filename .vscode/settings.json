@@ -6,7 +6,9 @@
     "files.associations": {
         "*.repos": "yaml",
         "*.world": "xml",
-        "*.xacro": "xml"
+        "*.xacro": "xml",
+        "functional": "cpp",
+        "iosfwd": "cpp"
     },
     "python.analysis.extraPaths": [
         "/opt/ros/humble/lib/python3.10/site-packages/"
@@ -37,7 +39,6 @@
         "**/log": true
     },
     "cSpell.words": [
-        "RTPS",
         "athackst",
         "autopep",
         "cmake",
@@ -56,6 +57,7 @@
         "rosdistro",
         "rosidl",
         "RTPS",
+        "Rviz",
         "uncrustify",
         "Wextra",
         "Wpedantic",

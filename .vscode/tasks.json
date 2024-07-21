@@ -8,7 +8,7 @@
             "label": "build",
             "detail": "Build workspace (default)",
             "type": "shell",
-            "command": "./build.sh",
+            "command": "./.vscode/tasks/scripts/build.sh",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -19,7 +19,7 @@
             "label": "debug",
             "detail": "Build workspace (debug)",
             "type": "shell",
-            "command": "./build.sh",
+            "command": "./.vscode/tasks/scripts/build.sh",
             "options": {
                 "env": {
                     "BUILD_TYPE": "Debug"
@@ -33,7 +33,7 @@
             "label": "test",
             "detail": "Run all unit tests and show results.",
             "type": "shell",
-            "command": "./test.sh",
+            "command": "./.vscode/tasks/scripts/test.sh",
             "group": {
                 "kind": "test",
                 "isDefault": true
@@ -233,7 +233,7 @@
             "label": "setup",
             "detail": "Set up the workspace",
             "type": "shell",
-            "command": "./setup.sh",
+            "command": "./.vscode/tasks/scripts/setup.sh",
             "problemMatcher": []
         },
         {
@@ -241,6 +241,21 @@
             "detail": "Create a git submodule for all repositories in your .repos file",
             "type": "shell",
             "command": "python3 .devcontainer/repos_to_submodules.py",
+            "problemMatcher": []
+        },
+        // User defined tasks
+        {
+            "label": "simulation",
+            "detail": "Launch turtlebot3 simulation.",
+            "type": "shell",
+            "command": "ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py",
+            "problemMatcher": []
+        },
+        {
+            "label": "rviz2",
+            "detail": "Launch rviz2 with configuration file.",
+            "type": "shell",
+            "command": "rviz2 --display-config ./.vscode/tasks/config/turtlebot.rviz",
             "problemMatcher": []
         }
     ],

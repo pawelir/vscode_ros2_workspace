@@ -1,9 +1,5 @@
 repositories:
-  examples:
-    type: git
-    url: https://github.com/ros2/examples.git
-    version: humble
-  ros2_course:
-    type: git
-    url: git@github.com:pawelir/ros2_course.git
-    version: main
+  # examples:
+  #   type: git
+  #   url: https://github.com/ros2/examples.git
+  #   version: humble

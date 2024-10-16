@@ -17,8 +17,6 @@ ROS2-approved formatters are included in the IDE.
 
 There are many pre-defined tasks, see [`.vscode/tasks.json`](.vscode/tasks.json) for a complete listing.  Feel free to adjust them to suit your needs.  
 
-Take a look at this [article](https://www.allisonthackston.com/articles/vscode_tasks.html) for an idea on how to use tasks in development.
-
 ### Debugging
 
 This template sets up debugging for python files, gdb for cpp programs and ROS launch files.  See [`.vscode/launch.json`](.vscode/launch.json) for configuration details.
@@ -46,9 +44,7 @@ You should already have Docker and VSCode with the remote containers plugin inst
 
 ### Clone repository
 
-Now you can clone your repo as normal
-
-![template_download](https://user-images.githubusercontent.com/6098197/91332342-e4e0f680-e780-11ea-9525-49b0afa0e4bb.png)
+Clone the repository to any folder you like. 
 
 ### Open it in vscode
 
